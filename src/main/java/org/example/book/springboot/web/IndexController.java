@@ -13,4 +13,9 @@ public class IndexController {
         //default suffix : .mustache
         return "index";
     }
+
+    @GetMapping("/posts/save")
+    public String postsSave(){
+        return "posts-save";
+    }
 }
